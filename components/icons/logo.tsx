@@ -9,7 +9,11 @@ export default function LogoIcon(props: React.ComponentProps<'svg'>) {
       {...props}
       className={clsx('h-4 w-4 fill-black dark:fill-white', props.className)}
     >
-      <image href="strct-logo.png" height="100%" width="100%" />
+      <image
+        href="https://cdn.shopify.com/s/files/1/0669/0203/2616/files/strct-logo_430x.png?v=1703839223"
+        height="100%"
+        width="100%"
+      />
     </svg>
   );
 }
