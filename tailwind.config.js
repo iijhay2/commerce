@@ -5,6 +5,10 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'banner-bg':
+          "url('https://cdn.shopify.com/s/files/1/0669/0203/2616/files/bgforabout_copy.jpg?v=1703946451')"
+      },
       fontFamily: {
         sans: ['var(--font-geist-sans)']
       },
@@ -50,5 +54,6 @@ module.exports = {
         }
       );
     })
-  ]
+  ],
+  darkMode: 'class'
 };

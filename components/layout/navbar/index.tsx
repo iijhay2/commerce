@@ -13,7 +13,7 @@ export default async function Navbar() {
   const menu = await getMenu('strct-frontend-header-menu');
 
   return (
-    <nav className="relative flex items-center justify-between p-4 lg:px-6">
+    <nav className="dark relative flex items-center justify-between p-4 lg:px-6">
       <div className="block flex-none md:hidden">
         <MobileMenu menu={menu} />
       </div>
