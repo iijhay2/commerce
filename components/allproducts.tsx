@@ -11,7 +11,7 @@ export async function AllProducts() {
           <h1 className="mb-5 text-2xl font-bold uppercase tracking-wider">ALL Products</h1>
         </div>
 
-        <Grid className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <Grid className="grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
           <ProductGridItems products={products} />
         </Grid>
       </section>
